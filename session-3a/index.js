@@ -34,4 +34,10 @@ function sayHey() {
     console.log("Hey!");
 }
 
-sayHey()
+function conversation(){
+   sayHey()
+   console.log("How are you?")
+   console.log("Goodbye!")
+}
+
+conversation()
