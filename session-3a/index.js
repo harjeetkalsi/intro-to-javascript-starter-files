@@ -22,16 +22,10 @@ console.log("After c has been updated to use the new a: " + c);
 
 
 
-// BONUS ACTIVITY: What we entered into the console in session 2:
-/*
-
-5
-2 + 2
-'Hello'
-'Hey,' + 'how are you?'
-
-*/
-
+console.log(5)
+console.log(2 + 2)
+console.log('Hello')
+console.log('Hey,' + 'how are you?')
 
 
 // FUNCTIONS
