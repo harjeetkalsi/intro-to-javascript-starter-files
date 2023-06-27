@@ -39,13 +39,15 @@ const sayHey = name => "Hey " + name + "!"
 console.log(sayHey("Harjeet"))
 
 
-function conversation(name, topic){
-   sayHey(name)
-   console.log("Do you like " + topic + "?")
+// function conversation(name, topic){
+//    sayHey(name)
+//    console.log("Do you like " + topic + "?")
   
-}
+// }
 
-conversation()
+const conversation = (name,topic) => sayHey(name) + ", Do you like " + topic + "?";
+
+console.log(conversation("Harjeet", "food"))
 
 function sayDay(){
     return "Thursday"
