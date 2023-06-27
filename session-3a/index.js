@@ -30,14 +30,42 @@ console.log('Hey,' + 'how are you?')
 
 // FUNCTIONS
 
-function sayHey() {
-    console.log("Hey!");
-}
+// function sayHey(name) {
+//     console.log("Hey " + name + "!");
+// }
 
-function conversation(){
-   sayHey()
-   console.log("How are you?")
-   console.log("Goodbye!")
+const sayHey = name => "Hey " + name + "!"
+
+console.log(sayHey("Harjeet"))
+
+
+function conversation(name, topic){
+   sayHey(name)
+   console.log("Do you like " + topic + "?")
+  
 }
 
 conversation()
+
+function sayDay(){
+    return "Thursday"
+}
+
+const day = () => "It is Thursday";
+
+console.log(day())
+
+
+
+// function futureAge(current_age){
+//     let futureAge = current_age + 5
+//     return futureAge
+// }
+
+const futureAge = current_age => current_age + 5
+
+
+console.log(futureAge(30))
+
+
+
